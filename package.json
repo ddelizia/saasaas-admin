@@ -5,21 +5,44 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.26.1",
+    "@auth0/auth0-react": "^1.3.0",
+    "@elastic/react-search-ui": "^1.5.1",
+    "@elastic/search-ui-app-search-connector": "^1.5.1",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/data-grid": "^4.0.0-alpha.13",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "algoliasearch": "^4.8.5",
+    "axios": "^0.21.1",
+    "gatsby": "^2.32.3",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
+    "gatsby-plugin-react-leaflet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-plugin-typescript": "^2.7.0",
+    "gatsby-plugin-workbox": "^0.1.7",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
+    "leaflet": "^1.7.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-instantsearch-dom": "^6.9.0",
+    "react-leaflet": "^3.1.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-instantsearch-dom": "^6.8.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "prettier": "2.1.2",
+    "typescript": "^4.1.2"
   },
   "keywords": [
     "gatsby"
@@ -32,6 +55,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "type-check": "tsc --noEmit",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
